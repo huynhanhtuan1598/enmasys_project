@@ -1,0 +1,21 @@
+import React from "react";
+import Footer from "../Home/Footer";
+import { Head } from "../Home/Head";
+import Category_page from "./Categoryhome/Category_page";
+import Cate_search from "../Page_category/Category_search/Cate_search";
+import { Product } from "../Home/Product";
+import Product_cate from "./Product_cate/Product_cate";
+
+const Category_home = () => {
+  return (
+    <>
+      <Head />
+      <Cate_search/>
+      <Product_cate/>
+      <Category_page />
+      <Footer />
+    </>
+  );
+};
+
+export default Category_home;

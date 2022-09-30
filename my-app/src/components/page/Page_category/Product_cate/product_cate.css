@@ -1,0 +1,24 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+.grid {
+    width: 100%;
+    display: block;
+    padding: 0;
+  }
+  
+  .grid.wide {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .suggestions-main {
+    display: flex;
+}
+.suggestions_main_category{
+    display: flex;
+    width: 80%;
+    margin-left: 230px;
+}
