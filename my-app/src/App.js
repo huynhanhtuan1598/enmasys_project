@@ -15,7 +15,7 @@ import {publicRoutes} from './Router/index'
 
 function App() {
   return (
-    <Router>
+    // <Router>
     <div className="App">
       <Routes>
         {publicRoutes.map((route, index) => {
@@ -25,7 +25,7 @@ function App() {
           })}
         </Routes>
     </div>
-    </Router>
+    // </Router>
   );
 }
 

@@ -197,18 +197,27 @@ p{
 }
 
 .navigation-slider {
+  font-size: 12px;
   display   : flex;
   transition: all 0.5s ease-in-out;
+  white-space: nowrap;
 }
 
 .navigation-item {
-  font-size : 14px;
+  font-size : 12px;
   color     : rgb(56, 56, 61);
   display   : inline-block;
-  padding   : 0 6px;
-  min-width : 119px;
+  /* padding   : 0 16px; */
+  min-width : 94px;
   text-align: center;
+  white-space: nowrap;
 }
+
+.navigation-item p{
+  padding   : 0 16px;
+
+}
+
 
 .navigation-item:hover {
   opacity: 0.8;
@@ -233,8 +242,8 @@ p{
 
 /* file Content */
 .content_header{
-  position: relative;
-  top: -46px;
+  /* position: relative;
+  top: -46px; */
 }
   
 /* carousel */

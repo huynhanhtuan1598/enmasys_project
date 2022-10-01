@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     margin-left: -4px;
     margin-right: -4px;
+    margin-top: 10px;
 }
 .grid {
     width: 100%;
