@@ -53,7 +53,7 @@ export const Navigation = () => {
                   <p> Túi nữ&emsp;</p>
                 </NavLink>
                 <NavLink strict to="/Category_home" className="navigation-item">
-                  <p>Giày nam&emsp;</p>
+                  <p>Giày nam2&emsp;</p>
                 </NavLink>
                 <NavLink strict to="/Category_home" className="navigation-item">
                   <p>Giày nữ&emsp;</p>

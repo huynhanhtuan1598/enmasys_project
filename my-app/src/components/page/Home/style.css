@@ -200,12 +200,10 @@ p {
 }
 
 .navigation-content {
-  overflow: hidden;
   height: 44px;
   display: flex;
   align-items: center;
   position: relative;
-
 }
 
 .navigation-slider {
