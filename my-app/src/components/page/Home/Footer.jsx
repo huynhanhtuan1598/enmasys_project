@@ -8,7 +8,7 @@ const Footer = () => {
     <div class="container">
         <div class="row">
             <div class="footer-col">
-                <h4>Hỗ trợ khách hàng</h4>
+                <h4><b>Hỗ trợ khách hàng</b></h4>
                 <ul>
                     <li><a href="#">Hotline: 1900-6035<br/>(1000 đ/phút, 8-21h kể cả T7, CN)</a></li>
                     <li><a href="#">Các câu hỏi thường gặp</a></li>
@@ -23,7 +23,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div class="footer-col">
-                <h4>Về Tiki</h4>
+                <h4><b>Về Tiki</b></h4>
                 <ul>
                     <li><a href="#">Giới thiệu Tiki</a></li>
                     <li><a href="#">Tuyển dụng</a></li>
@@ -39,18 +39,18 @@ const Footer = () => {
                 </ul>
             </div>
             <div class="footer-col">
-                <h4>Hợp tác và liên kết</h4>
+                <h4><b>Hợp tác và liên kết</b></h4>
                 <ul>
                     <li><a href="#">Quy chế hoạt động Sàn GDTMDT</a></li>
                     <li><a href="#">Bán hàng cùng Tiki</a></li>
                 </ul>
-                <h4>Chứng nhận bởi</h4>
+                <h4><b>Chứng nhận bởi</b></h4>
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
 
             </div>
             <div class="footer-col">
-                <h4>Phương thức thanh toán</h4>
+                <h4><b>Phương thức thanh toán</b></h4>
                 <div class="social-links">
                 <img class="w-100 h-100" src={Cash} alt="Lataa" />
                     {/* <a href="#">
@@ -62,7 +62,7 @@ const Footer = () => {
                 </div>
             </div>
             <div class="footer-col">
-             <h4>kết nối với chúng tôi</h4>
+             <h4><b>kết nối với chúng tôi</b></h4>
              <div class="social-links">
              <img class="w-100 h-100" src={Ch_play} alt="Lataa" />
                  {/* <a href="#">  <img class="w-100 h-100" src={Ch_play} alt="Lataa" /></a>

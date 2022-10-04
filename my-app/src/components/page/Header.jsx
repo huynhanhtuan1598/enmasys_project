@@ -9,20 +9,24 @@ import { Navigation } from './Home/Navigation';
 import { Content } from './Home/Content';
 import { Product } from './Home/Product';
 import Category_home from './Page_category/Category_home';
+import Product_inf from './Product/Product_detail_page'
+import { Product_supplier } from './Product_supplier/Product_supplier';
 
 
 const Header = () => {
   return (
     <>
     <Head /> 
+    {/* <Product_supplier/> */}
     <Navigation />
     <Content/>
     <Carousel/>
     <Category />
     <Container/>
-    <Product />
-    <Footer/>  
-    {/* <Category_home/> */}
+    <Product /> 
+    {/* <Footer/>  
+    
+    {/* <Product_inf/> */}
     </>
     
   )

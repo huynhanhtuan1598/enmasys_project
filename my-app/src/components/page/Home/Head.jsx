@@ -59,3 +59,5 @@ export const Head = () => {
     </div>
   );
 };
+
+export default Head

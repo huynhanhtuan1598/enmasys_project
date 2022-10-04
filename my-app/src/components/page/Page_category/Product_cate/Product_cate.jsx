@@ -1,6 +1,7 @@
 import React from 'react';
 import "./product_cate.css";
 import Ip13 from '../../../img/13prmax.webp';
+import { Outlet, Link, NavLink } from "react-router-dom";
 
 const Product_cate = () => {
   return (
@@ -14,7 +15,7 @@ const Product_cate = () => {
                 <div class="suggestions_main_category">
                   <div class="col l-2 m-6 c-3">
                     <div class="product-having">
-                      <a class="product-having-a" href="">
+                      <NavLink  strict to="/Product_detail_page" class="product-having-a" href="">
                         <div class="product-having-photo">
                           <img
                             src={Ip13}
@@ -29,7 +30,7 @@ const Product_cate = () => {
                           </p>
                           <span class="product-having-price">194.000 ₫</span>
                         </div>
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                   <div class="col l-2 m-6 c-3">
