@@ -9,7 +9,7 @@ export const Navigation = () => {
   return (
     <>
       <div className="navigation">
-        <div className="grid wide">
+        <div className="grid wide navigation_header">
           <div className="rower">
             <div
               className="col l-12 c-12 m-12"
@@ -53,7 +53,7 @@ export const Navigation = () => {
                   <p> Túi nữ&emsp;</p>
                 </NavLink>
                 <NavLink strict to="/Category_home" className="navigation-item">
-                  <p>Giày nam2&emsp;</p>
+                  <p>Giày nam&emsp;</p>
                 </NavLink>
                 <NavLink strict to="/Category_home" className="navigation-item">
                   <p>Giày nữ&emsp;</p>

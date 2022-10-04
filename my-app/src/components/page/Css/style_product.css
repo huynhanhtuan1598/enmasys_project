@@ -2,10 +2,11 @@
 .product-suggestions {
     margin: 10px 0;
 }
+/*  */
 
 .highlight-container {
     background-color: var(--white-color);
-    margin-bottom: 20px;
+    margin-bottom: 26px;
 }
 
 .product-having-a {
@@ -60,6 +61,7 @@
 /* responsive */
 .product-suggestions {
     overflow-x: hidden;
+    margin-left: -224px;
 }
 
 .product-having-a {

@@ -13,6 +13,26 @@ const Product_cate = () => {
               {/* <!-- Dành cho bạn --> */}
               <div class="product_suggestions_container block-active_category">
                 <div class="suggestions_main_category">
+                <div class="col l-2 m-6 c-3">
+                    <div class="product-having">
+                      <NavLink  strict to="/Product_detail_page" class="product-having-a" href="">
+                        <div class="product-having-photo">
+                          <img
+                            src={Ip13}
+                            alt=""
+                            class="product-having-img"
+                          />
+                        </div>
+                        <div class="product-having-title">
+                          <p class="product-having-title-item">
+                            Ghế đệm mông bơm hơi có tay vịn-Tặng kèm bơm tay và
+                            quà tặng
+                          </p>
+                          <span class="product-having-price">194.000 ₫</span>
+                        </div>
+                      </NavLink>
+                    </div>
+                  </div>
                   <div class="col l-2 m-6 c-3">
                     <div class="product-having">
                       <NavLink  strict to="/Product_detail_page" class="product-having-a" href="">

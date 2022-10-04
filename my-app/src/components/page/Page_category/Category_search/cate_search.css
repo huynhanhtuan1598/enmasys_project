@@ -5,10 +5,10 @@
     font-family: 'Roboto';
 }
 .slider {
-    margin-top: 1%;
-    margin-left: 387px;
+    margin-top: 0%;
+    margin-left: 0px;
     margin-right: 303px;
-    width: 64%;
+    width: 68%;     
 }
 
 .slider-container {
@@ -31,7 +31,7 @@
 .slider-img {
     margin-left: 41px;
     width: 278px;
-    height: 164px;
+    height: 159px;
     overflow     : hidden;
     border-radius: 4px;
 }
@@ -60,7 +60,7 @@
     position                 : absolute;
     top                      : 50%;
     transform                : translateY(-50%);
-    right                    : 0;
+    right                    : 218px;
     font-size                : 15px;
     padding                  : 20px 10px;
     /* background-color         : #1f4b84; */

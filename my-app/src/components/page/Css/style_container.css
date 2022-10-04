@@ -3,11 +3,14 @@
     position: sticky;
     top: 0px;
     z-index: 999;
+    margin-left: -224px;
+
 }
 
 .sticky-item {
     background-color: #fff;
     border-radius: 4px;
+    width: 1230px;
 }
 
 .sticky-item-box-title {

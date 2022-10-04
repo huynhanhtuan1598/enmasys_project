@@ -6,3 +6,9 @@
 .row p{
     padding: 5px;
 }
+
+.grid.wide.product_similar {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: 373px;
+  }

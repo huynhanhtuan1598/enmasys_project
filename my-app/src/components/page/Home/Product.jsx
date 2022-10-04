@@ -6,7 +6,7 @@ export const Product = () => {
   return (
     <>
       <div class="product-suggestions">
-        <div class="grid wide">
+        <div class="grid wide product_px ">
           <div class="highlight-container">
             <div class="row ">
               {/* <!-- Dành cho bạn --> */}

@@ -3,7 +3,7 @@ import "../Product_price/style.css";
 
 const Product_detail = () => {
   return (
-    <div class="container">
+    <div class="container_detail">
       <div class="card">
         <div class="container-fliud">
           <div class="wrapper row">

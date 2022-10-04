@@ -25,14 +25,36 @@
 }
 
 .grid.wide {
+  max-width: 1231px;
+  margin: 0 auto;
+  margin-left: 373px;
+}
+.grid.wide.product {
+  max-width: 1030px;
+  margin: 0 auto;
+  margin-left: 373px;
+}
+.grid.wide.product_px {
+  max-width: 1230px;
+  margin: 0 auto;
+  margin-left: 373px;
+}
+.grid.wide.product_similar {
   max-width: 1200px;
   margin: 0 auto;
+  margin-left: 383px;
 }
+.grid.wide.navigation_header {
+  max-width: 1006px;
+  margin: 0 auto;
+  margin-left: 373px;
+}
+
 .suggestions-main {
   display: flex;
 }
 .suggestions_main_category{
   display: flex;
   width: 80%;
-  margin-left: 230px;
+  margin-left: 26px;
 }

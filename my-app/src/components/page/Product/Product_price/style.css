@@ -21,6 +21,13 @@ img {
   flex-direction: column;
 }
 
+.container_detail {
+  max-width: 1201px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (max-width: 996px) {
   .preview {
     margin-bottom: 20px;

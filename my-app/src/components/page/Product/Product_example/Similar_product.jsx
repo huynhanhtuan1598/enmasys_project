@@ -5,7 +5,7 @@ const Similar_product = () => {
   return (
     <div class="product-suggestions">
 
-    <div class="grid wide">
+    <div class="grid wide product_similar">
       <div class="highlight-container">
         <div class="row ">
           {/* <!-- Dành cho bạn --> */}
