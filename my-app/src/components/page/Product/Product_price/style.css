@@ -90,6 +90,7 @@ img {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    width: 970px;
   }
 }
 
@@ -308,3 +309,180 @@ img {
   -webkit-appearance: none;
   margin: 0;
 }
+
+/* Information shop */
+.ewqXRk .body .right {
+  padding-bottom: 20px;
+  width: 240px;
+}
+
+.kOzFUd {
+  border-radius: 4px;
+  box-shadow: rgb(242 242 242) 1px 1px 0px 0px inset, rgb(242 242 242) -1px -1px 0px 0px inset;
+}
+
+.bTlnnR .seller-info {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 12px;
+  min-height: 60px;
+}
+.bTlnnR .overview {
+  display: flex;
+  align-items: flex-start;
+}
+
+.bTlnnR .overview .logo {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.bTlnnR .overview .overview-right {
+  margin: 0px 0px 0px 12px;
+}
+.bTlnnR .seller-info .center-item {
+  align-self: center;
+}
+
+.bTlnnR .overview .overview-right .seller-name {
+  margin: 0px 0px 2px;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: rgb(36, 36, 36);
+}
+.bTlnnR .overview .overview-right .seller-name > span {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
+.bTlnnR .seller-detail {
+  display: flex;
+  min-height: 39px;
+}
+
+.bTlnnR .seller-detail .item {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.bTlnnR .seller-detail .item > .title {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.bTlnnR .seller-detail .item * {
+  text-align: center;
+}
+
+.bTlnnR .seller-detail .item > .title > span {
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+}
+
+.bTlnnR .seller-detail .item.review .title > i {
+  color: rgb(255, 193, 32);
+  margin-left: 3px;
+}
+.icomoon {
+  display: inline-block;
+  font-family: 'icomoon';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icomoon-star:before {
+  content: '\e924';
+} 
+
+.bTlnnR .seller-detail .item > .sub-title {
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  color: rgb(120, 120, 120);
+}
+
+.bTlnnR .seller-detail .border-left {
+  align-self: center;
+  width: 1px;
+  height: 16px;
+  background-color: rgb(242, 242, 242);
+}
+
+.bTlnnR .seller-detail .item {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.bTlnnR .seller-detail .item > .title {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.bTlnnR .seller-action {
+  display: flex;
+  padding: 12px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.bTlnnR .seller-action > .action {
+  display: flex;
+  padding: 6px 9px;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid rgb(13, 92, 182);
+  cursor: pointer;
+}
+
+.bTlnnR .seller-action > .action > img {
+  width: 20px;
+  height: 20px;
+}
+img {
+  max-width: 100%;
+  border-style: none;
+}
+
+.bTlnnR .seller-action > .action > span {
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  color: rgb(13, 92, 182);
+  margin-left: 4px;
+}
+
+.bTlnnR .seller-action > .action.follow {
+  padding: 6px 11.3px;
+}
+
+
+
+
+

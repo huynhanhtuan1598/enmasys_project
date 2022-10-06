@@ -10,7 +10,6 @@ import { Content } from './Home/Content';
 import { Product } from './Home/Product';
 import Category_home from './Page_category/Category_home';
 import Product_inf from './Product/Product_detail_page'
-import { Product_supplier } from './Product_supplier/Product_supplier';
 
 
 const Header = () => {
@@ -23,10 +22,8 @@ const Header = () => {
     <Carousel/>
     <Category />
     <Container/>
-    <Product /> 
-    {/* <Footer/>  
+    <Footer/>  
     
-    {/* <Product_inf/> */}
     </>
     
   )

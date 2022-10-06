@@ -1,4 +1,5 @@
 import React from "react";
+import "../Css/Responsive.css";
 import Footer from "../Home/Footer";
 import { Head } from "../Home/Head";
 import Category_page from "./Categoryhome/Category_page";

@@ -68,7 +68,7 @@ const Detail_infor = () => {
         - Sản phẩm an toàn, không gây kích ứng da khi tiếp xúc, đảm bảo an toàn cho sức khỏe.
         </p>
         <p>
-        <p>&nbsp;</p>
+        {/* <p>&nbsp;</p> */}
         2/ Chi tiết sản phẩm chăn hè chần bông:
         </p>
         <p>
@@ -81,7 +81,7 @@ const Detail_infor = () => {
         - Kích thước chăn 1m6x2m
         </p>
         <p>
-        <p>&nbsp;</p>
+        {/* <p>&nbsp;</p>  */}
         3/ Cam kết:
         </p>
         <p>- 100% chính hãng từ nhà sản xuất Everon</p>

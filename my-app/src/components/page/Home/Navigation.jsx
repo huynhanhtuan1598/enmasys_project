@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Outlet, Link, NavLink } from "react-router-dom";
 import "./style.css";
+import "../Css/Responsive.css"; 
 
 export const Navigation = () => {
   const [isNext, setIsNext] = useState(true);

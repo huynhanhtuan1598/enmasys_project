@@ -9,12 +9,13 @@ import Product_commnet from './Product_comment/Product_commnet';
 export default function Product_detail_page() {
   return (
   <>
-    <Header/>
-    <Product_detail/>
-    <Detail_infor/>
-    <Product_commnet/>
-    <Product/>
-    <Footer/>
+      <Header/>
+      <Product_detail/>
+      <Detail_infor/>
+      <Product_commnet/>
+      <Product/>
+      <Footer/>
+    {/* <Product_detail/> */}
 </>
   )
 }

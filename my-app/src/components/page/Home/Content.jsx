@@ -21,61 +21,61 @@ export const Content = () => {
                 <div class="wrap-img">
                   <img src={astra} className="jenisk" />
                 </div>
-                <p class="mb-0 mt-2">Men&nbsp;Sale</p>
+                <p class="mb-0 mt-2">Thưởng thêm Astra</p>
               </div>
               <div class="d-flex flex-column align-items-center">
                 <div class="wrap-img">
                   <img src={mec} className="jenisk" />
                 </div>
-                <p class="mb-0 mt-2">Men&nbsp;Sale</p>
+                <p class="mb-0 mt-2">Trúng <br/>Mercedes</p>
               </div>
               <div class="d-flex flex-column align-items-center">
                 <div class="wrap-img">
                   <img src={hot_food} className="jenisk" />
                 </div>
-                <p class="mb-0 mt-2">Men&nbsp;Sale</p>
+                <p class="mb-0 mt-2">Đi chợ siêu tốc</p>
               </div>
               <div class="d-flex flex-column align-items-center">
                 <div class="wrap-img">
                   <img src={cash_money} className="jenisk" />
                 </div>
-                <p class="mb-0 mt-2">Men&nbsp;Sale</p>
+                <p class="mb-0 mt-2">Đóng tiền,<br/> nạp thẻ</p>
               </div>
               <div class="d-flex flex-column align-items-center">
                 <div class="wrap-img">
                   <img src={ASA} className="jenisk" />
                 </div>
-                <p class="mb-0 mt-2">Men&nbsp;Sale</p>
+                <p class="mb-0 mt-2">Mua bán<br/> ASA/XU</p>
               </div>
               <div class="d-flex flex-column align-items-center">
                 <div class="wrap-img">
                   <img src={ticked_sale} className="jenisk" />
                 </div>
-                <p class="mb-0 mt-2">Men&nbsp;Sale</p>
+                <p class="mb-0 mt-2">Mã giảm giá</p>
               </div>
               <div class="d-flex flex-column align-items-center">
                 <div class="wrap-img">
                   <img src={Sale_50} className="jenisk" />
                 </div>
-                <p class="mb-0 mt-2">Men&nbsp;Sale</p>
+                <p class="mb-0 mt-2">Bảo Hiểm <br/>Tiki360</p>
               </div>
               <div class="d-flex flex-column align-items-center">
                 <div class="wrap-img">
                   <img src={Cash_money} className="jenisk" />
                 </div>
-                <p class="mb-0 mt-2">Men&nbsp;Sale</p>
+                <p class="mb-0 mt-2">Giảm đến 50%</p>
               </div>
               <div class="d-flex flex-column align-items-center">
                 <div class="wrap-img">
                   <img src={user_carousel} className="jenisk" />
                 </div>
-                <p class="mb-0 mt-2">Men&nbsp;Sale</p>
+                <p class="mb-0 mt-2">Hoàn tiền <br/>15%</p>
               </div>
               <div class="d-flex flex-column align-items-center">
                 <div class="wrap-img">
                   <img src={Cacsh_sale} className="jenisk" />
                 </div>
-                <p class="mb-0 mt-2">Men&nbsp;Sale</p>
+                <p class="mb-0 mt-2">Ưu đãi Thanh toán</p>
               </div>
             </div>
           </div>

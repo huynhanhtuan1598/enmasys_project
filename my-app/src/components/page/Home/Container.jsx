@@ -49,7 +49,7 @@ const Container = () => {
                     <img src={Digital_service} alt="" class="sticky-list-img" />
                     <div class="sticky-box">
                       Deal Siêu
-                      <br /> Hot
+                       Hot
                     </div>
                   </li>
                   <li class="sticky-list-tab">

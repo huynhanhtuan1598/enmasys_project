@@ -1,5 +1,6 @@
 import React from 'react';
 import "./product_cate.css";
+import "../../Css/Responsive.css";
 import Ip13 from '../../../img/13prmax.webp';
 import { Outlet, Link, NavLink } from "react-router-dom";
 

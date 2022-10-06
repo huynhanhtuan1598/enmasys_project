@@ -1,5 +1,11 @@
 import React from "react";
 import "../Product_price/style.css";
+import shop from "../../../img/shop.webp";
+import icon_shop from "../../../img/icon.png";
+import icon_add from "../../../img/icon_add.png";
+
+
+
 
 const Product_detail = () => {
   return (
@@ -106,7 +112,15 @@ const Product_detail = () => {
               </h5>
               <div class="buttons_added">
                 <input class="minus is-form" type="button" value="-" />
-                <input aria-label="quantity" class="input-qty" max="10" min="1" name="" type="number" value="1"/>
+                <input
+                  aria-label="quantity"
+                  class="input-qty"
+                  max="10"
+                  min="1"
+                  name=""
+                  type="number"
+                  value="1"
+                />
                 <input class="plus is-form" type="button" value="+" />
               </div>
               <div class="action">
@@ -118,11 +132,57 @@ const Product_detail = () => {
                 </button>
               </div>
             </div>
+            <div class="Right">
+        <div class="style__StyledCurrentSeller-sc-12p8j3k-0 kOzFUd">
+          <div class="style__StyledSellerWidget-sc-kd90zt-0 bTlnnR">
+            <div class="style__StyledSellerWidget-sc-kd90zt-0 bTlnnR">
+              <div class="seller-info">
+                <a class="overview">
+                  <img
+                    class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo logo"
+                    src={shop}
+                  />
+                  <div class="overview-right center-item">
+                    <span class="seller-name">
+                      <span>MEN'S SHOES FASHION</span>
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="seller-detail">
+              <div class="item review">
+                <div class="title">
+                  <span>4.7 / 5</span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+                <div class="sub-title">21</div>
+              </div>
+              <div class="border-left"></div>
+              <div class="item normal">
+                <div class="title">
+                  <span>4</span>
+                </div>
+                <div class="sub-title">Theo dõi</div>
+              </div>
+            </div>
+            <div class="seller-action">
+              <a class="action" href="/Shop_detail">
+                <img src={icon_shop}/>
+                <span>Xem Shop  </span>
+              </a>
+              <div class="action follow">
+                <img src={icon_add}/>
+                <span>Theo Dõi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
           </div>
         </div>
       </div>
     </div>
-	
   );
 };
 

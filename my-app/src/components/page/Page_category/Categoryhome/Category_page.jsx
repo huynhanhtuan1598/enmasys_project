@@ -1,5 +1,6 @@
 import React from "react";
 import "./Category.css";
+import "../../Css/Responsive.css";
 import Now from '../../../img/now.png';
 import Astra from '../../../img/astra++.png';
 import Freeship from '../../../img/freeship.png';
