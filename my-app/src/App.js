@@ -5,13 +5,7 @@ import Headers from './components/page/Header';
 import {publicRoutes} from './Router/index'
 
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <Headers />
-//     </div>
-//   );
-// }
+
 
 function App() {
   return (
@@ -31,4 +25,3 @@ function App() {
 
 export default App;
 
-// export default App;
