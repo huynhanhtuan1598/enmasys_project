@@ -1,4 +1,4 @@
-import React from 'react';
+
 import user_carousel from "../../img/1.png";
 import astra from "../../img/astra+.webp";
 import mec from "../../img/mec.webp";
@@ -10,9 +10,12 @@ import Sale_50 from "../../img/sale_50.webp";
 import Cash_money from "../../img/hoan_tien.webp";
 import Cacsh_sale from "../../img/thanh_toan.webp";
 
-export const Content = () => {
+
+
+import React from 'react'
+
+export default function Content() {
   return (
-    <>
     <div className="content_header">
         <div className="container">
           <div class="row mx-0 jenis-sale">
@@ -81,6 +84,6 @@ export const Content = () => {
           </div>
         </div>
       </div>
-    </>
   )
 }
+

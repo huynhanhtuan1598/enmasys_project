@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import {  NavLink } from "react-router-dom";
 
 
 export default function List_product(props) {
-    
+    // const product = useContext(array)
     return (
         <div class="product_suggestions_category">
         <div class="grid wide product">
@@ -17,14 +17,14 @@ export default function List_product(props) {
                       <NavLink  strict to="/Product_detail_page" class="product-having-a" href="">
                         <div class="product-having-photo">
                           <img
-                            src={props.img}
+                            src={props.product_pro.img}
                             alt=""
                             class="product-having-img"
                           />
                         </div>
                         <div class="product-having-title">
                           <p class="product-having-title-item">
-                            {props.name}
+                            {props.product_pro.name}
                           </p>
                           <span class="product-having-price">194.000 ₫</span>
                         </div>

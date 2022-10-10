@@ -2,7 +2,8 @@ import React from 'react';
 import Cash from '../../img/Screenshot 2021-11-08 165951 thanh toán.png';
 import Ch_play from '../../img/Screenshot 2021-11-08 171932 dowload.png';
 
-const Footer = () => {
+
+export default function Footer() {
   return (
     <footer class="footer">
     <div class="container">
@@ -77,4 +78,3 @@ const Footer = () => {
   )
 }
 
-export default Footer

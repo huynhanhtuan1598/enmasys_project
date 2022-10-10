@@ -15,15 +15,13 @@
 
 .menu-hover {
     display: block;
-    /* position        : absolute; */
     background-color: white;
     width           : 228px;
     left            : -130px;
     top             : 61px;
-    /* display         : none; */
     z-index         : 2;
     margin-left: 141px;
-    margin-top: -414px;
+    margin-top: -412px;
 }
 
 

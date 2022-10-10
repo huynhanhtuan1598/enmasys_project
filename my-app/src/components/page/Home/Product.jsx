@@ -2,10 +2,10 @@ import React from "react";
 import "../../page/Css/style_product.css"
 import Iphone_13pr from "../../img/13prmax.webp";
 
-export const Product = () => {
+
+export default function Product() {
   return (
-    <>
-      <div class="product-suggestions">
+    <div class="product-suggestions">
         <div class="grid wide product_px ">
           <div class="highlight-container">
             <div class="row ">
@@ -248,7 +248,5 @@ export const Product = () => {
           </div>
         </div>
       </div>
-    </>
-  );
-};
-export default Product;
+  )
+}

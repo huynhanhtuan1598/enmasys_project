@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import LANA from '../../img/lata.webp';
 import Nestles from '../../img/suanan.webp';
 import Tshirts from '../../img/ao_khoac.webp';
@@ -7,9 +7,9 @@ import Uno from '../../img/uno.webp';
 import tefat from '../../img/may_ep.webp';
 
 
-export const Carousel = () => {
+export default function Carousel() {
   return (
-  <div class="body_Carousel">
+    <div class="body_Carousel">
       <div class="row mx-0 sale">
           <div class="row mx-0  row-card">
             {/* thoi trang */}
@@ -97,4 +97,3 @@ export const Carousel = () => {
   )
 }
 
-export default Carousel

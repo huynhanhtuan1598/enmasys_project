@@ -21,7 +21,8 @@ import S20 from "../../img/s20ss_256GB.webp";
 import Milk from "../../img/suanan.webp";
 import Iphone13 from "../../img/smart_phone.webp";
 
-const Container = () => {
+
+export default function Container() {
   return (
     <div>
       <div class="container-sticky">
@@ -318,7 +319,6 @@ const Container = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Container;

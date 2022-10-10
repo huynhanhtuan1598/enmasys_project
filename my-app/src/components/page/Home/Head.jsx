@@ -4,10 +4,10 @@ import searchs from "../../img/search.png";
 import user from "../../img/user.png";
 import carts from "../../img/cart.png";
 
-export const Head = () => {
+
+export default function Head() {
   return (
-    <>
-      <header class="style__Header-sc-q53692-0 ebTvCC">
+    <header class="style__Header-sc-q53692-0 ebTvCC">
         <div class="Container-sc-itwfbd-0 hfMLFx">
           <div class="Middle__Wrap-sc-vop1h1-0 edlkEo">
             <div class="Middle__LeftContainer-sc-vop1h1-1 hBRVdJ">
@@ -91,8 +91,6 @@ export const Head = () => {
             </div>
         </div>
       </header>
-    </>
-  );
-};
+  )
+}
 
-export default Head;
