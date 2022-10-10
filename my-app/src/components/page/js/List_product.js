@@ -5,107 +5,109 @@ import {  NavLink } from "react-router-dom";
 export default function List_product(props) {
     // const product = useContext(array)
     return (
-        <div class="product_suggestions_category">
-        <div class="grid wide product">
-          <div class="highlight-container">
-            <div class="row ">
+        <div className="product_suggestions_category">
+        <div className="grid wide product">
+          <div className="highlight-container">
+            <div className="row ">
               {/* <!-- Dành cho bạn --> */}
-              <div class="product_suggestions_container block-active_category">
-                <div class="suggestions_main_category">
-                <div class="col l-2 m-6 c-3">
-                    <div class="product-having">
-                      <NavLink  strict to="/Product_detail_page" class="product-having-a" href="">
-                        <div class="product-having-photo">
+              <div className="product_suggestions_container block-active_category">
+                <div className="suggestions_main_category">
+                <div className="col l-2 m-6 c-3">
+                    <div className="product-having">
+                      <NavLink  strict to="/Product_detail_page" className="product-having-a" href="">
+                        <div className="product-having-photo">
                           <img
                             src={props.product_pro.img}
                             alt=""
-                            class="product-having-img"
+                            className="product-having-img"
                           />
                         </div>
-                        <div class="product-having-title">
-                          <p class="product-having-title-item">
+                        <div className="product-having-title">
+                          <p className="product-having-title-item">
                             {props.product_pro.name}
                           </p>
-                          <span class="product-having-price">194.000 ₫</span>
+                          <span className="product-having-price">194.000 ₫</span>
                         </div>
                       </NavLink>
                     </div>
                   </div>
-                  {/* <div class="col l-2 m-6 c-3">
-                    <div class="product-having">
-                      <NavLink  strict to="/Product_detail_page" class="product-having-a" href="">
-                        <div class="product-having-photo">
+                  <div className="col l-2 m-6 c-3">
+                    <div className="product-having">
+                      <NavLink  strict to="/Product_detail_page" className="product-having-a" href="">
+                        <div className="product-having-photo">
                           <img
-                            src={Ip13}
+                            src={props.product_pro.img}
                             alt=""
-                            class="product-having-img"
+                            className="product-having-img"
                           />
                         </div>
-                        <div class="product-having-title">
-                          <p class="product-having-title-item">
-                            Ghế đệm mông bơm hơi có tay vịn-Tặng kèm bơm tay và
-                            quà tặng
+                        <div className="product-having-title">
+                          <p className="product-having-title-item">
+                          {props.product_pro.name}
                           </p>
-                          <span class="product-having-price">194.000 ₫</span>
+                          <span className="product-having-price">194.000 ₫</span>
                         </div>
                       </NavLink>
                     </div>
                   </div>
-                  <div class="col l-2 m-6 c-3">
-                    <div class="product-having">
-                      <a class="product-having-a" href="">
-                        <div class="product-having-photo">
+                  <div className="col l-2 m-6 c-3">
+                    <div className="product-having">
+                      <NavLink  strict to="/Product_detail_page" className="product-having-a" href="">
+                        <div className="product-having-photo">
                           <img
-                            src={Ip13}
+                            src={props.product_pro.img}
                             alt=""
-                            class="product-having-img"
+                            className="product-having-img"
                           />
                         </div>
-                        <div class="product-having-title">
-                          <p class="product-having-title-item">
-                            (Hang Cap Cap) Kệ đựng đồ đa năng,3tầng có bánh xe
-                            việt nhật
+                        <div className="product-having-title">
+                          <p className="product-having-title-item">
+                          {props.product_pro.name}
                           </p>
-                          <span class="product-having-price">194.000 ₫</span>
+                          <span className="product-having-price">194.000 ₫</span>
                         </div>
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
-                  <div class="col l-2 m-6 c-3">
-                    <div class="product-having">
-                      <a class="product-having-a" href="">
-                        <div class="product-having-photo">
-                          <img src={Ip13} class="product-having-img" />
-                        </div>
-                        <div class="product-having-title">
-                          <p class="product-having-title-item">
-                            Điện thoại iPhone 13 Pro Max - Hàng chính hãng
-                          </p>
-                          <span class="product-having-price">194.000 ₫</span>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col l-2 m-6 c-3">
-                    <div class="product-having">
-                      <a class="product-having-a" href="">
-                        <div class="product-having-photo">
+                  <div className="col l-2 m-6 c-3">
+                    <div className="product-having">
+                      <NavLink  strict to="/Product_detail_page" className="product-having-a" href="">
+                        <div className="product-having-photo">
                           <img
-                            src={Ip13}
+                            src={props.product_pro.img}
                             alt=""
-                            class="product-having-img"
+                            className="product-having-img"
                           />
                         </div>
-                        <div class="product-having-title">
-                          <p class="product-having-title-item">
-                            Nồi Chiên Không Dầu Điện Tử Lock&Lock EJF357BLK (5.2
-                            Lít) - Hàng Chính Hãng
+                        <div className="product-having-title">
+                          <p className="product-having-title-item">
+                          {props.product_pro.name}
                           </p>
-                          <span class="product-having-price">194.000 ₫</span>
+                          <span className="product-having-price">194.000 ₫</span>
                         </div>
-                      </a>
+                      </NavLink>
                     </div>
-                  </div> */}
+                  </div>
+                  <div className="col l-2 m-6 c-3">
+                    <div className="product-having">
+                      <NavLink  strict to="/Product_detail_page" className="product-having-a" href="">
+                        <div className="product-having-photo">
+                          <img
+                            src={props.product_pro.img}
+                            alt=""
+                            className="product-having-img"
+                          />
+                        </div>
+                        <div className="product-having-title">
+                          <p className="product-having-title-item">
+                          {props.product_pro.name}
+                          </p>
+                          <span className="product-having-price">194.000 ₫</span>
+                        </div>
+                      </NavLink>
+                    </div>
+                  </div>
+                  
                 </div>
               </div>
             </div>

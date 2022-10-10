@@ -4,23 +4,23 @@ import { GrAdd } from "react-icons/gr";
 
 const ShopProduct_detail = () => {
     return (
-      <div class="Container-sc-itwfbd-0 hfMLFx">
-          <div class="Header__Wrapper-sc-vgcg69-0 bexpsg">
-            <div class="Header__SellerInfoWrapper-sc-vgcg69-4 jHoZit">
-              <div class="Header__Logo-sc-vgcg69-1 kLonNv">
+      <div className="Container-sc-itwfbd-0 hfMLFx">
+          <div className="Header__Wrapper-sc-vgcg69-0 bexpsg">
+            <div className="Header__SellerInfoWrapper-sc-vgcg69-4 jHoZit">
+              <div className="Header__Logo-sc-vgcg69-1 kLonNv">
                 <img
                   src="https://salt.tikicdn.com/cache/w220/ts/seller/ba/c1/1f/93edad6a2d897f63b07d6c60f64fb28d.jpg"
                   alt=""
                   width="100%"
                 />
               </div>
-              <div class="Header__SellerNameWrapper-sc-vgcg69-5 jZYoaR">
-                <h1 class="Header__SellerName-sc-vgcg69-2 kgqRrB">
+              <div className="Header__SellerNameWrapper-sc-vgcg69-5 jZYoaR">
+                <h1 className="Header__SellerName-sc-vgcg69-2 kgqRrB">
                 MEN'S SHOES FASHION
                 </h1>
-                <div class="Header__InfoRow-sc-vgcg69-10 bZJHNY"></div>
-                <div class="Header__BadgeWrapper-sc-vgcg69-11 czboZb">
-                  <div class="Header__WrapperFollow-sc-vgcg69-14 dAmNTy">
+                <div className="Header__InfoRow-sc-vgcg69-10 bZJHNY"></div>
+                <div className="Header__BadgeWrapper-sc-vgcg69-11 czboZb">
+                  <div className="Header__WrapperFollow-sc-vgcg69-14 dAmNTy">
                     <svg
                       width="16"
                       height="16"
@@ -34,10 +34,10 @@ const ShopProduct_detail = () => {
                       ></path>
                     </svg>
                   </div>
-                  <div class="Header__SubInfo-sc-vgcg69-12 iUmIsA">4.8 / 5</div>
-                  <div class="Header__LineRow-sc-vgcg69-13 euNvZb"></div>
-                  <div class="Header__BadgeWrapper-sc-vgcg69-11 czboZb">
-                    <div class="Header__WrapperFollow-sc-vgcg69-14 dAmNTy">
+                  <div className="Header__SubInfo-sc-vgcg69-12 iUmIsA">4.8 / 5</div>
+                  <div className="Header__LineRow-sc-vgcg69-13 euNvZb"></div>
+                  <div className="Header__BadgeWrapper-sc-vgcg69-11 czboZb">
+                    <div className="Header__WrapperFollow-sc-vgcg69-14 dAmNTy">
                       <svg
                         width="16"
                         height="16"
@@ -62,49 +62,49 @@ const ShopProduct_detail = () => {
                         ></path>
                       </svg>
                     </div>
-                    <div class="Header__SubInfo-sc-vgcg69-12 iUmIsA">
+                    <div className="Header__SubInfo-sc-vgcg69-12 iUmIsA">
                       Người theo dõi: 11
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="Header__FollowButtonContent-sc-vgcg69-8 fZaZlX">
-                <button class="FollowButton__Container-sc-1epasg2-0 eHjVFq">
-                  <div class="FollowButton__Icon-sc-1epasg2-1 bBrJuq">
+              <div className="Header__FollowButtonContent-sc-vgcg69-8 fZaZlX">
+                <button className="FollowButton__Container-sc-1epasg2-0 eHjVFq">
+                  <div className="FollowButton__Icon-sc-1epasg2-1 bBrJuq">
                     <GrAdd />
                   </div>
                   Theo Dõi
                 </button>
               </div>
             </div>
-            <div class="Header__MenuSearchWrapper-sc-vgcg69-6 Ga-dUl">
-              <div class="MenuTab__WrapperTabMenu-sc-lsdhqe-2 fKjHLu">
-                <div class="MenuTab__WrapperOption-sc-lsdhqe-0 fTqZSn">
-                  <div class="MenuTab__TextOption-sc-lsdhqe-1 iHDxar">Cửa Hàng</div>
+            <div className="Header__MenuSearchWrapper-sc-vgcg69-6 Ga-dUl">
+              <div className="MenuTab__WrapperTabMenu-sc-lsdhqe-2 fKjHLu">
+                <div className="MenuTab__WrapperOption-sc-lsdhqe-0 fTqZSn">
+                  <div className="MenuTab__TextOption-sc-lsdhqe-1 iHDxar">Cửa Hàng</div>
                 </div>
-                <div class="MenuTab__WrapperOption-sc-lsdhqe-0 fTqZSn">
-                  <div class="MenuTab__TextOption-sc-lsdhqe-1 bGCbRj">
+                <div className="MenuTab__WrapperOption-sc-lsdhqe-0 fTqZSn">
+                  <div className="MenuTab__TextOption-sc-lsdhqe-1 bGCbRj">
                     Tất Cả Sản Phẩm
                   </div>
                 </div>
-                <div class="MenuTab__WrapperOption-sc-lsdhqe-0 fTqZSn">
-                  <div class="MenuTab__TextOption-sc-lsdhqe-1 bGCbRj">
+                <div className="MenuTab__WrapperOption-sc-lsdhqe-0 fTqZSn">
+                  <div className="MenuTab__TextOption-sc-lsdhqe-1 bGCbRj">
                     Bộ Sưu Tập
                   </div>
                 </div>
-                <div class="MenuTab__WrapperOption-sc-lsdhqe-0 fTqZSn">
-                  <div class="MenuTab__TextOption-sc-lsdhqe-1 bGCbRj">
+                <div className="MenuTab__WrapperOption-sc-lsdhqe-0 fTqZSn">
+                  <div className="MenuTab__TextOption-sc-lsdhqe-1 bGCbRj">
                     Giá sốc hôm nay
                   </div>
                 </div>
-                <div class="MenuTab__WrapperOption-sc-lsdhqe-0 fTqZSn">
-                  <div class="MenuTab__TextOption-sc-lsdhqe-1 bGCbRj">
+                <div className="MenuTab__WrapperOption-sc-lsdhqe-0 fTqZSn">
+                  <div className="MenuTab__TextOption-sc-lsdhqe-1 bGCbRj">
                     Hồ Sơ Cửa Hàng
                   </div>
                 </div>
               </div>
-              <div class="SearchInput__Wrapper-sc-4v92vf-0 dUkuyS">
-                <div class="SearchInput__SearchIconWrapper-sc-4v92vf-2 krMvCR">
+              <div className="SearchInput__Wrapper-sc-4v92vf-0 dUkuyS">
+                <div className="SearchInput__SearchIconWrapper-sc-4v92vf-2 krMvCR">
                   <svg
                     width="20"
                     height="20"
@@ -123,12 +123,12 @@ const ShopProduct_detail = () => {
                 <input
                   type="text"
                   placeholder="Tìm sản phẩm tại cửa hàng"
-                  class="SearchInput__Input-sc-4v92vf-1 khDiHu"
+                  className="SearchInput__Input-sc-4v92vf-1 khDiHu"
                   value=""
                 ></input>
               </div>
             </div>
-            <div class="Header__OverlayBackground-sc-vgcg69-7 dTHdtC"></div>
+            <div className="Header__OverlayBackground-sc-vgcg69-7 dTHdtC"></div>
           </div>
           
         

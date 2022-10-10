@@ -4,70 +4,70 @@ import cat_story from "../../../img/cat_story.webp";
 
 const Product_list = () => {
   return (
-   <div class="Container-sc-itwfbd-0 hfMLFx">
-     <div class="StoreTab__Container-sc-147j2nr-0 kByqex ALL_PRODUCT">
-      <div class="ProductRow__Wrapper-sc-13ncpqb-0 gQzyWn widget-item">
-        <div class="WidgetTitle__Title-sc-e2wjwt-0 julxTh">
+   <div className="Container-sc-itwfbd-0 hfMLFx">
+     <div className="StoreTab__Container-sc-147j2nr-0 kByqex ALL_PRODUCT">
+      <div className="ProductRow__Wrapper-sc-13ncpqb-0 gQzyWn widget-item">
+        <div className="WidgetTitle__Title-sc-e2wjwt-0 julxTh">
           <h2>
-            <div class="AllProducts__TitleWrapper-sc-5fjerj-0 cXsCLS">
+            <div className="AllProducts__TitleWrapper-sc-5fjerj-0 cXsCLS">
               <span>Tất cả sản phẩm:</span>
-              <span class="count-text"> 100 kết quả</span>
+              <span className="count-text"> 100 kết quả</span>
             </div>
           </h2>
         </div>
-        <div class="ProductFilterAndSortBar__Wrapper-sc-15xwnye-0 dnpORJ">
-          <div class="ProductFilterAndSortBar__SortSection-sc-15xwnye-2 isBSXj">
+        <div className="ProductFilterAndSortBar__Wrapper-sc-15xwnye-0 dnpORJ">
+          <div className="ProductFilterAndSortBar__SortSection-sc-15xwnye-2 isBSXj">
             <a
               value=""
-              class="ProductFilterAndSortBar__SortItem-sc-15xwnye-4 bIAggp"
+              className="ProductFilterAndSortBar__SortItem-sc-15xwnye-4 bIAggp"
             >
               Phổ biến
             </a>
             <a
               value="order_desc"
-              class="ProductFilterAndSortBar__SortItem-sc-15xwnye-4 eyvLXs"
+              className="ProductFilterAndSortBar__SortItem-sc-15xwnye-4 eyvLXs"
             >
               Bán chạy
             </a>
             <a
               value="newest"
-              class="ProductFilterAndSortBar__SortItem-sc-15xwnye-4 eyvLXs"
+              className="ProductFilterAndSortBar__SortItem-sc-15xwnye-4 eyvLXs"
             >
               Hàng mới
             </a>
             <a
               value="price_asc"
-              class="ProductFilterAndSortBar__SortItem-sc-15xwnye-4 eyvLXs"
+              className="ProductFilterAndSortBar__SortItem-sc-15xwnye-4 eyvLXs"
             >
               Giá thấp đến cao
             </a>
             <a
               value="price_desc"
-              class="ProductFilterAndSortBar__SortItem-sc-15xwnye-4 eyvLXs"
+              className="ProductFilterAndSortBar__SortItem-sc-15xwnye-4 eyvLXs"
             >
               Giá cao đến thấp
             </a>
           </div>
-          <div class="ProductFilterAndSortBar__Divider-sc-15xwnye-1 eoeuby"></div>
+          <div className="ProductFilterAndSortBar__Divider-sc-15xwnye-1 eoeuby"></div>
         </div>
-        <div class="ProductRow__Container-sc-13ncpqb-1 ceJCpX">
+        <div className="ProductRow__Container-sc-13ncpqb-1 ceJCpX">
           <a
             href=""
-            class="Product__Wrapper-sc-n99tp2-0 Product___StyledWrapper-sc-n99tp2-1 gMgInl"
+            className="Product__Wrapper-sc-n99tp2-0 Product___StyledWrapper-sc-n99tp2-1 gMgInl"
           >
-            <div class="Product__Container-sc-n99tp2-2 cmKAZS p-container">
-              <div class="Product__Thumbnail-sc-n99tp2-3 hIMjQQ p-thumbnail">
-                <div class="Picture__StyledPicture-sc-10icj7e-0 jDowEZ thumbnail-img loaded">
-                  <img src={cat_story} class="image" />
+            <div className="Product__Container-sc-n99tp2-2 cmKAZS p-container">
+              <div className="Product__Thumbnail-sc-n99tp2-3 hIMjQQ p-thumbnail">
+                <div className="Picture__StyledPicture-sc-10icj7e-0 jDowEZ thumbnail-img loaded">
+                  <img src={cat_story} className="image" />
                 </div>
               </div>
-              <div class="Product__Info-sc-n99tp2-4 fVvAhB">
-                <div class="Product__Name-sc-n99tp2-5 bKITFt">
+              <div className="Product__Info-sc-n99tp2-4 fVvAhB">
+                <div className="Product__Name-sc-n99tp2-5 bKITFt">
                   <h3>Đông Trùng Hạ Thảo Long Ngọc Bảo</h3>
                 </div>
-                <div class="Product__RatingReview-sc-n99tp2-6 eNmLbs">
-                  <div class="Product__Rating-sc-n99tp2-7 kGxEjz">
-                    <div class="Product__RatingTotal-sc-n99tp2-8 eekjZu">
+                <div className="Product__RatingReview-sc-n99tp2-6 eNmLbs">
+                  <div className="Product__Rating-sc-n99tp2-7 kGxEjz">
+                    <div className="Product__RatingTotal-sc-n99tp2-8 eekjZu">
                       <svg
                         width="16"
                         height="16"
@@ -129,36 +129,36 @@ const Product_list = () => {
                         ></path>
                       </svg>
                     </div>
-                    <div class="Product__LineCol-sc-n99tp2-19 kXXgpV">
+                    <div className="Product__LineCol-sc-n99tp2-19 kXXgpV">
                       
                     </div>
-                    <div class="Product__LabelSoldSKu-sc-n99tp2-18 bqTOUt">Đã bán 64</div>
+                    <div className="Product__LabelSoldSKu-sc-n99tp2-18 bqTOUt">Đã bán 64</div>
                   </div>
                 </div>
-                <div class="Product__PriceDiscount-sc-n99tp2-10 Iqxzi">
-                <div class="Product__PriceDiscountValue-sc-n99tp2-11 gNGdFk"><span>250.000 ₫</span></div>
+                <div className="Product__PriceDiscount-sc-n99tp2-10 Iqxzi">
+                <div className="Product__PriceDiscountValue-sc-n99tp2-11 gNGdFk"><span>250.000 ₫</span></div>
                 </div>
-                <div class="Product__UnderPrice-sc-n99tp2-14 jgDYST"></div>
+                <div className="Product__UnderPrice-sc-n99tp2-14 jgDYST"></div>
               </div>
             </div>
           </a>
           <a
             href=""
-            class="Product__Wrapper-sc-n99tp2-0 Product___StyledWrapper-sc-n99tp2-1 gMgInl"
+            className="Product__Wrapper-sc-n99tp2-0 Product___StyledWrapper-sc-n99tp2-1 gMgInl"
           >
-            <div class="Product__Container-sc-n99tp2-2 cmKAZS p-container">
-              <div class="Product__Thumbnail-sc-n99tp2-3 hIMjQQ p-thumbnail">
-                <div class="Picture__StyledPicture-sc-10icj7e-0 jDowEZ thumbnail-img loaded">
-                  <img src={cat_story} class="image" />
+            <div className="Product__Container-sc-n99tp2-2 cmKAZS p-container">
+              <div className="Product__Thumbnail-sc-n99tp2-3 hIMjQQ p-thumbnail">
+                <div className="Picture__StyledPicture-sc-10icj7e-0 jDowEZ thumbnail-img loaded">
+                  <img src={cat_story} className="image" />
                 </div>
               </div>
-              <div class="Product__Info-sc-n99tp2-4 fVvAhB">
-                <div class="Product__Name-sc-n99tp2-5 bKITFt">
+              <div className="Product__Info-sc-n99tp2-4 fVvAhB">
+                <div className="Product__Name-sc-n99tp2-5 bKITFt">
                   <h3>Đông Trùng Hạ Thảo Long Ngọc Bảo</h3>
                 </div>
-                <div class="Product__RatingReview-sc-n99tp2-6 eNmLbs">
-                  <div class="Product__Rating-sc-n99tp2-7 kGxEjz">
-                    <div class="Product__RatingTotal-sc-n99tp2-8 eekjZu">
+                <div className="Product__RatingReview-sc-n99tp2-6 eNmLbs">
+                  <div className="Product__Rating-sc-n99tp2-7 kGxEjz">
+                    <div className="Product__RatingTotal-sc-n99tp2-8 eekjZu">
                       <svg
                         width="16"
                         height="16"
@@ -220,36 +220,36 @@ const Product_list = () => {
                         ></path>
                       </svg>
                     </div>
-                    <div class="Product__LineCol-sc-n99tp2-19 kXXgpV">
+                    <div className="Product__LineCol-sc-n99tp2-19 kXXgpV">
                       
                     </div>
-                    <div class="Product__LabelSoldSKu-sc-n99tp2-18 bqTOUt">Đã bán 64</div>
+                    <div className="Product__LabelSoldSKu-sc-n99tp2-18 bqTOUt">Đã bán 64</div>
                   </div>
                 </div>
-                <div class="Product__PriceDiscount-sc-n99tp2-10 Iqxzi">
-                <div class="Product__PriceDiscountValue-sc-n99tp2-11 gNGdFk"><span>250.000 ₫</span></div>
+                <div className="Product__PriceDiscount-sc-n99tp2-10 Iqxzi">
+                <div className="Product__PriceDiscountValue-sc-n99tp2-11 gNGdFk"><span>250.000 ₫</span></div>
                 </div>
-                <div class="Product__UnderPrice-sc-n99tp2-14 jgDYST"></div>
+                <div className="Product__UnderPrice-sc-n99tp2-14 jgDYST"></div>
               </div>
             </div>
           </a>
           <a
             href=""
-            class="Product__Wrapper-sc-n99tp2-0 Product___StyledWrapper-sc-n99tp2-1 gMgInl"
+            className="Product__Wrapper-sc-n99tp2-0 Product___StyledWrapper-sc-n99tp2-1 gMgInl"
           >
-            <div class="Product__Container-sc-n99tp2-2 cmKAZS p-container">
-              <div class="Product__Thumbnail-sc-n99tp2-3 hIMjQQ p-thumbnail">
-                <div class="Picture__StyledPicture-sc-10icj7e-0 jDowEZ thumbnail-img loaded">
-                  <img src={cat_story} class="image" />
+            <div className="Product__Container-sc-n99tp2-2 cmKAZS p-container">
+              <div className="Product__Thumbnail-sc-n99tp2-3 hIMjQQ p-thumbnail">
+                <div className="Picture__StyledPicture-sc-10icj7e-0 jDowEZ thumbnail-img loaded">
+                  <img src={cat_story} className="image" />
                 </div>
               </div>
-              <div class="Product__Info-sc-n99tp2-4 fVvAhB">
-                <div class="Product__Name-sc-n99tp2-5 bKITFt">
+              <div className="Product__Info-sc-n99tp2-4 fVvAhB">
+                <div className="Product__Name-sc-n99tp2-5 bKITFt">
                   <h3>Đông Trùng Hạ Thảo Long Ngọc Bảo</h3>
                 </div>
-                <div class="Product__RatingReview-sc-n99tp2-6 eNmLbs">
-                  <div class="Product__Rating-sc-n99tp2-7 kGxEjz">
-                    <div class="Product__RatingTotal-sc-n99tp2-8 eekjZu">
+                <div className="Product__RatingReview-sc-n99tp2-6 eNmLbs">
+                  <div className="Product__Rating-sc-n99tp2-7 kGxEjz">
+                    <div className="Product__RatingTotal-sc-n99tp2-8 eekjZu">
                       <svg
                         width="16"
                         height="16"
@@ -311,36 +311,36 @@ const Product_list = () => {
                         ></path>
                       </svg>
                     </div>
-                    <div class="Product__LineCol-sc-n99tp2-19 kXXgpV">
+                    <div className="Product__LineCol-sc-n99tp2-19 kXXgpV">
                       
                     </div>
-                    <div class="Product__LabelSoldSKu-sc-n99tp2-18 bqTOUt">Đã bán 64</div>
+                    <div className="Product__LabelSoldSKu-sc-n99tp2-18 bqTOUt">Đã bán 64</div>
                   </div>
                 </div>
-                <div class="Product__PriceDiscount-sc-n99tp2-10 Iqxzi">
-                <div class="Product__PriceDiscountValue-sc-n99tp2-11 gNGdFk"><span>250.000 ₫</span></div>
+                <div className="Product__PriceDiscount-sc-n99tp2-10 Iqxzi">
+                <div className="Product__PriceDiscountValue-sc-n99tp2-11 gNGdFk"><span>250.000 ₫</span></div>
                 </div>
-                <div class="Product__UnderPrice-sc-n99tp2-14 jgDYST"></div>
+                <div className="Product__UnderPrice-sc-n99tp2-14 jgDYST"></div>
               </div>
             </div>
           </a>
           <a
             href=""
-            class="Product__Wrapper-sc-n99tp2-0 Product___StyledWrapper-sc-n99tp2-1 gMgInl"
+            className="Product__Wrapper-sc-n99tp2-0 Product___StyledWrapper-sc-n99tp2-1 gMgInl"
           >
-            <div class="Product__Container-sc-n99tp2-2 cmKAZS p-container">
-              <div class="Product__Thumbnail-sc-n99tp2-3 hIMjQQ p-thumbnail">
-                <div class="Picture__StyledPicture-sc-10icj7e-0 jDowEZ thumbnail-img loaded">
-                  <img src={cat_story} class="image" />
+            <div className="Product__Container-sc-n99tp2-2 cmKAZS p-container">
+              <div className="Product__Thumbnail-sc-n99tp2-3 hIMjQQ p-thumbnail">
+                <div className="Picture__StyledPicture-sc-10icj7e-0 jDowEZ thumbnail-img loaded">
+                  <img src={cat_story} className="image" />
                 </div>
               </div>
-              <div class="Product__Info-sc-n99tp2-4 fVvAhB">
-                <div class="Product__Name-sc-n99tp2-5 bKITFt">
+              <div className="Product__Info-sc-n99tp2-4 fVvAhB">
+                <div className="Product__Name-sc-n99tp2-5 bKITFt">
                   <h3>Đông Trùng Hạ Thảo Long Ngọc Bảo</h3>
                 </div>
-                <div class="Product__RatingReview-sc-n99tp2-6 eNmLbs">
-                  <div class="Product__Rating-sc-n99tp2-7 kGxEjz">
-                    <div class="Product__RatingTotal-sc-n99tp2-8 eekjZu">
+                <div className="Product__RatingReview-sc-n99tp2-6 eNmLbs">
+                  <div className="Product__Rating-sc-n99tp2-7 kGxEjz">
+                    <div className="Product__RatingTotal-sc-n99tp2-8 eekjZu">
                       <svg
                         width="16"
                         height="16"
@@ -402,36 +402,36 @@ const Product_list = () => {
                         ></path>
                       </svg>
                     </div>
-                    <div class="Product__LineCol-sc-n99tp2-19 kXXgpV">
+                    <div className="Product__LineCol-sc-n99tp2-19 kXXgpV">
                       
                     </div>
-                    <div class="Product__LabelSoldSKu-sc-n99tp2-18 bqTOUt">Đã bán 64</div>
+                    <div className="Product__LabelSoldSKu-sc-n99tp2-18 bqTOUt">Đã bán 64</div>
                   </div>
                 </div>
-                <div class="Product__PriceDiscount-sc-n99tp2-10 Iqxzi">
-                <div class="Product__PriceDiscountValue-sc-n99tp2-11 gNGdFk"><span>250.000 ₫</span></div>
+                <div className="Product__PriceDiscount-sc-n99tp2-10 Iqxzi">
+                <div className="Product__PriceDiscountValue-sc-n99tp2-11 gNGdFk"><span>250.000 ₫</span></div>
                 </div>
-                <div class="Product__UnderPrice-sc-n99tp2-14 jgDYST"></div>
+                <div className="Product__UnderPrice-sc-n99tp2-14 jgDYST"></div>
               </div>
             </div>
           </a>
           <a
             href=""
-            class="Product__Wrapper-sc-n99tp2-0 Product___StyledWrapper-sc-n99tp2-1 gMgInl"
+            className="Product__Wrapper-sc-n99tp2-0 Product___StyledWrapper-sc-n99tp2-1 gMgInl"
           >
-            <div class="Product__Container-sc-n99tp2-2 cmKAZS p-container">
-              <div class="Product__Thumbnail-sc-n99tp2-3 hIMjQQ p-thumbnail">
-                <div class="Picture__StyledPicture-sc-10icj7e-0 jDowEZ thumbnail-img loaded">
-                  <img src={cat_story} class="image" />
+            <div className="Product__Container-sc-n99tp2-2 cmKAZS p-container">
+              <div className="Product__Thumbnail-sc-n99tp2-3 hIMjQQ p-thumbnail">
+                <div className="Picture__StyledPicture-sc-10icj7e-0 jDowEZ thumbnail-img loaded">
+                  <img src={cat_story} className="image" />
                 </div>
               </div>
-              <div class="Product__Info-sc-n99tp2-4 fVvAhB">
-                <div class="Product__Name-sc-n99tp2-5 bKITFt">
+              <div className="Product__Info-sc-n99tp2-4 fVvAhB">
+                <div className="Product__Name-sc-n99tp2-5 bKITFt">
                   <h3>Đông Trùng Hạ Thảo Long Ngọc Bảo</h3>
                 </div>
-                <div class="Product__RatingReview-sc-n99tp2-6 eNmLbs">
-                  <div class="Product__Rating-sc-n99tp2-7 kGxEjz">
-                    <div class="Product__RatingTotal-sc-n99tp2-8 eekjZu">
+                <div className="Product__RatingReview-sc-n99tp2-6 eNmLbs">
+                  <div className="Product__Rating-sc-n99tp2-7 kGxEjz">
+                    <div className="Product__RatingTotal-sc-n99tp2-8 eekjZu">
                       <svg
                         width="16"
                         height="16"
@@ -493,22 +493,22 @@ const Product_list = () => {
                         ></path>
                       </svg>
                     </div>
-                    <div class="Product__LineCol-sc-n99tp2-19 kXXgpV">
+                    <div className="Product__LineCol-sc-n99tp2-19 kXXgpV">
                       
                     </div>
-                    <div class="Product__LabelSoldSKu-sc-n99tp2-18 bqTOUt">Đã bán 64</div>
+                    <div className="Product__LabelSoldSKu-sc-n99tp2-18 bqTOUt">Đã bán 64</div>
                   </div>
                 </div>
-                <div class="Product__PriceDiscount-sc-n99tp2-10 Iqxzi">
-                <div class="Product__PriceDiscountValue-sc-n99tp2-11 gNGdFk"><span>250.000 ₫</span></div>
+                <div className="Product__PriceDiscount-sc-n99tp2-10 Iqxzi">
+                <div className="Product__PriceDiscountValue-sc-n99tp2-11 gNGdFk"><span>250.000 ₫</span></div>
                 </div>
-                <div class="Product__UnderPrice-sc-n99tp2-14 jgDYST"></div>
+                <div className="Product__UnderPrice-sc-n99tp2-14 jgDYST"></div>
               </div>
             </div>
           </a>
         </div>
         
-        <div class="ProductRow__Footer-sc-13ncpqb-2 ehdHkC"></div>
+        <div className="ProductRow__Footer-sc-13ncpqb-2 ehdHkC"></div>
       </div>
     </div>
    </div>

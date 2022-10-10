@@ -4,10 +4,10 @@ import "./style.css";
 const Detail_infor = () => {
   return (
     <>
-      <div class="Detail_information">
-        <div class="table_information">
+      <div className="Detail_information">
+        <div className="table_information">
           <h3>Thông Tin Chi Tiết</h3>
-          <table class="table_inf">
+          <table className="table_inf">
             <tbody>
               <tr>
                 <td>Thương hiệu</td>
@@ -41,7 +41,7 @@ const Detail_infor = () => {
           </table>
         </div>
       </div>
-      <div class='description'>
+      <div className='description'>
         <h3>
         Mô Tả Sản Phẩm
         </h3>

@@ -4,11 +4,11 @@ import "./header_cate.css";
 
 const Header_cate = () => {
   return (
-    <div class="Breadcrumb__Wrapper-sc-1a3qw0s-0 bXIPFu">
-      <div class="Container-sc-itwfbd-0 hfMLFx">
-        <div class="breadcrumb">
+    <div className="Breadcrumb__Wrapper-sc-1a3qw0s-0 bXIPFu">
+      <div className="Container-sc-itwfbd-0 hfMLFx">
+        <div className="breadcrumb">
           <a
-            class="breadcrumb-item"
+            className="breadcrumb-item"
             data-view-id="product_list_top_categories_item"
             data-view-index="0"
             data-view-content='{"click_data":{"trace_id":"o3qZpti5XcNi16gU"}}'
@@ -16,7 +16,7 @@ const Header_cate = () => {
           >
             <span>Trang chủ</span>
           </a>
-          <span class="icon icon-next">
+          <span className="icon icon-next">
             <svg
               width="6"
               height="11"
@@ -34,7 +34,7 @@ const Header_cate = () => {
           </span>
           <a
             href="#"
-            class="breadcrumb-item"
+            className="breadcrumb-item"
             data-view-id="product_list_top_categories_item"
             data-view-index="1"
             data-view-content='{"click_data":{"trace_id":"o3qZpti5XcNi16gU"}}'
