@@ -3,9 +3,9 @@ import logo from "../../img/enmasys.png";
 import searchs from "../../img/search.png";
 import user from "../../img/user.png";
 import carts from "../../img/cart.png";
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 export default function Head() {
-  const dispatch = useDispatch();
+  const carts = useSelector(state => state.cart.carts)
   return (
     <header className="style__Header-sc-q53692-0 ebTvCC">
       <div className="Container-sc-itwfbd-0 hfMLFx">
@@ -81,7 +81,7 @@ export default function Head() {
                       src="https://salt.tikicdn.com/ts/upload/40/44/6c/b80ad73e5e84aeb71c08e5d8d438eaa1.png"
                     />
                     <span className="Userstyle__ItemCartQty-sc-6e6am-5 ohfHv">
-                      0
+                      {carts?.length}
                     </span>
                   </div>
                   <span className="cart-text">Giỏ Hàng</span>
