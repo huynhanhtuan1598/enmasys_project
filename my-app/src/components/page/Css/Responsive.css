@@ -1,5 +1,5 @@
 /* Desktop */
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
     .App .hfMLFx {
         width: 1024px;
         padding-left: 15px;
@@ -235,7 +235,7 @@
         margin-left: 236px;
     }
 }
-@media (max-width:1280px) {
+@media (max-width: 1280px) {
     .navigation .grid.wide.navigation_header {
         max-width: 887px;
         margin: 0 auto;

@@ -19,7 +19,7 @@ import Underbone from '../../img/underbon.webp';
 import loudspeaker from '../../img/loa.webp';
 import Kitchen from '../../img/phu_kien_nha_bep.webp';
 import Flared_dress from '../../img/dam_dang_xoe.webp';
-  
+import {  NavLink } from "react-router-dom";
 
 export default function Category() {
   return (
@@ -28,10 +28,13 @@ export default function Category() {
         <h5 className="p-4">Danh Mục Nổi Bật</h5>
         <div className="d-flex">
           <div className="d-flex flex-column align-items-center card-category">
-            <div className="wrap-img">
+          <NavLink  strict to="/Product_detail_page" >
+          <div className="wrap-img">
               <img className="w-100 h-100" src={Hot}alt="Hot_ngon" />
             </div>
             <p className="mb-0 text-center"><h6>NGON</h6></p>
+          </NavLink>
+            
           </div>
           <div className="d-flex flex-column align-items-center card-category">
             <div className="wrap-img">

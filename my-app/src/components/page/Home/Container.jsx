@@ -10,6 +10,7 @@ import New_product from "../../img/Product_new.webp";
 import Trend from "../../img/fashion_trend.webp";
 import Vinfast_moto from "../../img/vinfast.webp";
 import Iphone_13pr from "../../img/13prmax.webp";
+import {  NavLink } from "react-router-dom";
 import Ipad from "../../img/ipad10.webp";
 import Oil_free_fryer from "../../img/noi_chien_khong_dau.png";
 import Book_organce from "../../img/book_cam.webp";
@@ -84,7 +85,7 @@ export default function Container() {
                 <div className="suggestions-main">
                   <div className="col l-2 m-6 c-3">
                     <div className="product-having">
-                      <a className="product-having-a" href="">
+                      <NavLink  strict to="/Product_detail_page" className="product-having-a" href="">
                         <div className="product-having-photo">
                           <img
                             src={Iphone_13pr}
@@ -99,12 +100,12 @@ export default function Container() {
                           </p>
                           <span className="product-having-price">194.000 ₫</span>
                         </div>
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                   <div className="col l-2 m-6 c-3">
                     <div className="product-having">
-                      <a className="product-having-a" href="">
+                      <NavLink  strict to="/Product_detail_page"  className="product-having-a" href="">
                         <div className="product-having-photo">
                           <img
                             src={Iphone_13pr}
@@ -119,12 +120,12 @@ export default function Container() {
                           </p>
                           <span className="product-having-price">194.000 ₫</span>
                         </div>
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                   <div className="col l-2 m-6 c-3">
                     <div className="product-having">
-                      <a className="product-having-a" href="">
+                      <NavLink  strict to="/Product_detail_page"  className="product-having-a" href="">
                         <div className="product-having-photo">
                           <img src={Iphone_13pr} className="product-having-img" />
                         </div>
@@ -134,12 +135,12 @@ export default function Container() {
                           </p>
                           <span className="product-having-price">194.000 ₫</span>
                         </div>
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                   <div className="col l-2 m-6 c-3">
                     <div className="product-having">
-                      <a className="product-having-a" href="">
+                      <NavLink  strict to="/Product_detail_page"  className="product-having-a" href="">
                         <div className="product-having-photo">
                           <img
                             src={Iphone_13pr}
@@ -154,12 +155,12 @@ export default function Container() {
                           </p>
                           <span className="product-having-price">194.000 ₫</span>
                         </div>
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                   <div className="col l-2 m-6 c-3">
                     <div className="product-having">
-                      <a className="product-having-a" href="">
+                      <NavLink  strict to="/Product_detail_page"  className="product-having-a" href="">
                         <div className="product-having-photo">
                           <img
                             src={Iphone_13pr}
@@ -173,12 +174,12 @@ export default function Container() {
                           </p>
                           <span className="product-having-price">194.000 ₫</span>
                         </div>
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                   <div className="col l-2 m-6 c-3">
                     <div className="product-having">
-                      <a className="product-having-a" href="">
+                      <NavLink  strict to="/Product_detail_page"  className="product-having-a" href="">
                         <div className="product-having-photo">
                           <img
                             src={Iphone_13pr}
@@ -193,14 +194,14 @@ export default function Container() {
                           </p>
                           <span className="product-having-price">194.000 ₫</span>
                         </div>
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                 </div>
                 <div className="suggestions-main">
                   <div className="col l-2 m-6 c-3">
                     <div className="product-having">
-                      <a className="product-having-a" href="">
+                      <NavLink  strict to="/Product_detail_page"  className="product-having-a" href="">
                         <div className="product-having-photo">
                           <img
                             src={Iphone_13pr}
@@ -215,12 +216,12 @@ export default function Container() {
                           </p>
                           <span className="product-having-price">194.000 ₫</span>
                         </div>
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                   <div className="col l-2 m-6 c-3">
                     <div className="product-having">
-                      <a className="product-having-a" href="">
+                      <NavLink  strict to="/Product_detail_page"  className="product-having-a" href="">
                         <div className="product-having-photo">
                           <img
                             src={Iphone_13pr}
@@ -235,12 +236,12 @@ export default function Container() {
                           </p>
                           <span className="product-having-price">194.000 ₫</span>
                         </div>
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                   <div className="col l-2 m-6 c-3">
                     <div className="product-having">
-                      <a className="product-having-a" href="">
+                      <NavLink  strict to="/Product_detail_page"  className="product-having-a" href="">
                         <div className="product-having-photo">
                           <img src={Iphone_13pr} className="product-having-img" />
                         </div>
@@ -250,12 +251,12 @@ export default function Container() {
                           </p>
                           <span className="product-having-price">194.000 ₫</span>
                         </div>
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                   <div className="col l-2 m-6 c-3">
                     <div className="product-having">
-                      <a className="product-having-a" href="">
+                      <NavLink  strict to="/Product_detail_page"  className="product-having-a" href="">
                         <div className="product-having-photo">
                           <img
                             src={Iphone_13pr}
@@ -270,12 +271,12 @@ export default function Container() {
                           </p>
                           <span className="product-having-price">194.000 ₫</span>
                         </div>
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                   <div className="col l-2 m-6 c-3">
                     <div className="product-having">
-                      <a className="product-having-a" href="">
+                      <NavLink  strict to="/Product_detail_page"  className="product-having-a" href="">
                         <div className="product-having-photo">
                           <img
                             src={Iphone_13pr}
@@ -289,12 +290,12 @@ export default function Container() {
                           </p>
                           <span className="product-having-price">194.000 ₫</span>
                         </div>
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                   <div className="col l-2 m-6 c-3">
                     <div className="product-having">
-                      <a className="product-having-a" href="">
+                      <NavLink  strict to="/Product_detail_page"  className="product-having-a" href="">
                         <div className="product-having-photo">
                           <img
                             src={Iphone_13pr}
@@ -309,7 +310,7 @@ export default function Container() {
                           </p>
                           <span className="product-having-price">194.000 ₫</span>
                         </div>
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                 </div>
