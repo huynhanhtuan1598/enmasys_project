@@ -51,7 +51,7 @@
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: 1fr;
-    gap: 12px 68px;
+    gap: 12px 45px;
 }
 .gDRkTC .page .item {
     display: flex;

@@ -1,138 +1,352 @@
 import React from 'react';
-import Iphone_13pr from "../../../img/13prmax.webp";
+import { Outlet, Link, NavLink } from "react-router-dom";
+import './style.css'
+import IP13 from "../../../img/13prmax.webp";
 
 const Similar_product = () => {
   return (
-    <div className="product-suggestions">
-
-    <div className="grid wide product_similar">
-      <div className="highlight-container">
-        <div className="row ">
-          {/* <!-- Dành cho bạn --> */}
-          <h2>Sản Phẩm Tương Tự</h2>
-          <div className="product-suggestions-container block-active">
-          {/* <h2>Sản Phẩm Tương Tự</h2> */}
-            <div className="suggestions-main">
-              <div className="col l-2 m-6 c-3">
-                <div className="product-having">
-                  <a className="product-having-a" href="">
-                    <div className="product-having-photo">
-                      <img
-                        src={Iphone_13pr}
-                        alt=""
-                        className="product-having-img"
-                      />
+    <div className="Container-sc-itwfbd-0 hfMLFx infinite_scroll">
+    <div className="style__StyledInfiniteScrollWidget-sc-89j3qn-2 cMnFhK">
+      <div className="style__StyledInfiniteScroll-sc-r7dr5o-0 icHRkQ">
+        <div className="content">
+          <div>
+            <a className="product-item">
+              <NavLink
+                strict
+                to="/Product_detail_page"
+                className="style__StyledItem-sc-1dymjr4-0 jreItg"
+              >
+                <div>
+                  <div className="thumbnail">
+                    <img src="" alt="" />
+                    <div className="style__ThumbnailWrapper-sc-1dymjr4-6 hkYMRb">
+                      <picture className="webpimg-container">
+                        <img src={IP13} alt="" />
+                      </picture>
                     </div>
-                    <div className="product-having-title">
-                      <p className="product-having-title-item">
-                        Ghế đệm mông bơm hơi có tay vịn-Tặng kèm bơm tay và
-                        quà tặng
-                      </p>
-                      <span className="product-having-price">194.000 ₫</span>
+                  </div>
+                  <div className="infor">
+                    <div class="badge-service"></div>
+                    <div className="name">
+                      <h3>
+                        Smart Tivi Qled The Serif Samsung 4K 55 inch QA55LS01B
+                        - Model 2022
+                      </h3>
                     </div>
-                  </a>
+                    <div className="star_checked">
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <div class="price-discount has-discount">
+                        <div class="price-discount__price">21.019.900₫</div>
+                        <div class="price-discount__discount">-27%</div>
+                        <div class="badge-under-price"></div>
+                        <div class="badge-benefits"></div>
+                        <div class="badge-additional-info"></div>
+                      </div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className="col l-2 m-6 c-3">
-                <div className="product-having">
-                  <a className="product-having-a" href="">
-                    <div className="product-having-photo">
-                      <img
-                        src={Iphone_13pr}
-                        alt=""
-                        className="product-having-img"
-                      />
+              </NavLink>
+              <NavLink
+                strict
+                to="/Product_detail_page"
+                className="style__StyledItem-sc-1dymjr4-0 jreItg"
+              >
+                <div>
+                  <div className="thumbnail">
+                    <img src="" alt="" />
+                    <div className="style__ThumbnailWrapper-sc-1dymjr4-6 hkYMRb">
+                      <picture className="webpimg-container">
+                        <img src={IP13} alt="" />
+                      </picture>
                     </div>
-                    <div className="product-having-title">
-                      <p className="product-having-title-item">
-                        (Hang Cap Cap) Kệ đựng đồ đa năng,3tầng có bánh xe
-                        việt nhật
-                      </p>
-                      <span className="product-having-price">194.000 ₫</span>
+                  </div>
+                  <div className="infor">
+                    <div class="badge-service"></div>
+                    <div className="name">
+                      <h3>
+                        Smart Tivi Qled The Serif Samsung 4K 55 inch QA55LS01B
+                        - Model 2022
+                      </h3>
                     </div>
-                  </a>
+                    <div className="star_checked">
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <div class="price-discount has-discount">
+                        <div class="price-discount__price">21.019.900₫</div>
+                        <div class="price-discount__discount">-27%</div>
+                        <div class="badge-under-price"></div>
+                        <div class="badge-benefits"></div>
+                        <div class="badge-additional-info"></div>
+                      </div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className="col l-2 m-6 c-3">
-                <div className="product-having">
-                  <a className="product-having-a" href="">
-                    <div className="product-having-photo">
-                      <img src={Iphone_13pr} className="product-having-img" />
+              </NavLink>
+              <NavLink
+                strict
+                to="/Product_detail_page"
+                className="style__StyledItem-sc-1dymjr4-0 jreItg"
+              >
+                <div>
+                  <div className="thumbnail">
+                    <img src="" alt="" />
+                    <div className="style__ThumbnailWrapper-sc-1dymjr4-6 hkYMRb">
+                      <picture className="webpimg-container">
+                        <img src={IP13} alt="" />
+                      </picture>
                     </div>
-                    <div className="product-having-title">
-                      <p className="product-having-title-item">
-                        Điện thoại iPhone 13 Pro Max - Hàng chính hãng
-                      </p>
-                      <span className="product-having-price">194.000 ₫</span>
+                  </div>
+                  <div className="infor">
+                    <div class="badge-service"></div>
+                    <div className="name">
+                      <h3>
+                        Smart Tivi Qled The Serif Samsung 4K 55 inch QA55LS01B
+                        - Model 2022
+                      </h3>
                     </div>
-                  </a>
+                    <div className="star_checked">
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <div class="price-discount has-discount">
+                        <div class="price-discount__price">21.019.900₫</div>
+                        <div class="price-discount__discount">-27%</div>
+                        <div class="badge-under-price"></div>
+                        <div class="badge-benefits"></div>
+                        <div class="badge-additional-info"></div>
+                      </div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className="col l-2 m-6 c-3">
-                <div className="product-having">
-                  <a className="product-having-a" href="">
-                    <div className="product-having-photo">
-                      <img
-                        src={Iphone_13pr}
-                        alt=""
-                        className="product-having-img"
-                      />
+              </NavLink>
+              <NavLink
+                strict
+                to="/Product_detail_page"
+                className="style__StyledItem-sc-1dymjr4-0 jreItg"
+              >
+                <div>
+                  <div className="thumbnail">
+                    <img src="" alt="" />
+                    <div className="style__ThumbnailWrapper-sc-1dymjr4-6 hkYMRb">
+                      <picture className="webpimg-container">
+                        <img src={IP13} alt="" />
+                      </picture>
                     </div>
-                    <div className="product-having-title">
-                      <p className="product-having-title-item">
-                        Nồi Chiên Không Dầu Điện Tử Lock&Lock EJF357BLK (5.2
-                        Lít) - Hàng Chính Hãng
-                      </p>
-                      <span className="product-having-price">194.000 ₫</span>
+                  </div>
+                  <div className="infor">
+                    <div class="badge-service"></div>
+                    <div className="name">
+                      <h3>
+                        Smart Tivi Qled The Serif Samsung 4K 55 inch QA55LS01B
+                        - Model 2022
+                      </h3>
                     </div>
-                  </a>
+                    <div className="star_checked">
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <div class="price-discount has-discount">
+                        <div class="price-discount__price">21.019.900₫</div>
+                        <div class="price-discount__discount">-27%</div>
+                        <div class="badge-under-price"></div>
+                        <div class="badge-benefits"></div>
+                        <div class="badge-additional-info"></div>
+                      </div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className="col l-2 m-6 c-3">
-                <div className="product-having">
-                  <a className="product-having-a" href="">
-                    <div className="product-having-photo">
-                      <img
-                        src={Iphone_13pr}
-                        alt=""
-                        className="product-having-img"
-                      />
+              </NavLink>
+              <NavLink
+                strict
+                to="/Product_detail_page"
+                className="style__StyledItem-sc-1dymjr4-0 jreItg"
+              >
+                <div>
+                  <div className="thumbnail">
+                    <img src="" alt="" />
+                    <div className="style__ThumbnailWrapper-sc-1dymjr4-6 hkYMRb">
+                      <picture className="webpimg-container">
+                        <img src={IP13} alt="" />
+                      </picture>
                     </div>
-                    <div className="product-having-title">
-                      <p className="product-having-title-item">
-                        Điện Thoại iPhone 13 128GB - Hàng Chính Hãng
-                      </p>
-                      <span className="product-having-price">194.000 ₫</span>
+                  </div>
+                  <div className="infor">
+                    <div class="badge-service"></div>
+                    <div className="name">
+                      <h3>
+                        Smart Tivi Qled The Serif Samsung 4K 55 inch QA55LS01B
+                        - Model 2022
+                      </h3>
                     </div>
-                  </a>
+                    <div className="star_checked">
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <div class="price-discount has-discount">
+                        <div class="price-discount__price">21.019.900₫</div>
+                        <div class="price-discount__discount">-27%</div>
+                        <div class="badge-under-price"></div>
+                        <div class="badge-benefits"></div>
+                        <div class="badge-additional-info"></div>
+                      </div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className="col l-2 m-6 c-3">
-                <div className="product-having">
-                  <a className="product-having-a" href="">
-                    <div className="product-having-photo">
-                      <img
-                        src={Iphone_13pr}
-                        alt=""
-                        className="product-having-img"
-                      />
+              </NavLink>
+              <NavLink
+                strict
+                to="/Product_detail_page"
+                className="style__StyledItem-sc-1dymjr4-0 jreItg"
+              >
+                <div>
+                  <div className="thumbnail">
+                    <img src="" alt="" />
+                    <div className="style__ThumbnailWrapper-sc-1dymjr4-6 hkYMRb">
+                      <picture className="webpimg-container">
+                        <img src={IP13} alt="" />
+                      </picture>
                     </div>
-                    <div className="product-having-title">
-                      <p className="product-having-title-item">
-                        Keo chống thấm dột sử lý vết nứt bong tróc đa năng
-                        TAIKO JAPAN nhập khẩu - Đen - 1 Kg
-                      </p>
-                      <span className="product-having-price">194.000 ₫</span>
+                  </div>
+                  <div className="infor">
+                    <div class="badge-service"></div>
+                    <div className="name">
+                      <h3>
+                        Smart Tivi Qled The Serif Samsung 4K 55 inch QA55LS01B
+                        - Model 2022
+                      </h3>
                     </div>
-                  </a>
+                    <div className="star_checked">
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <div class="price-discount has-discount">
+                        <div class="price-discount__price">21.019.900₫</div>
+                        <div class="price-discount__discount">-27%</div>
+                        <div class="badge-under-price"></div>
+                        <div class="badge-benefits"></div>
+                        <div class="badge-additional-info"></div>
+                      </div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
+              </NavLink>
+              <NavLink
+                strict
+                to="/Product_detail_page"
+                className="style__StyledItem-sc-1dymjr4-0 jreItg"
+              >
+                <div>
+                  <div className="thumbnail">
+                    <img src="" alt="" />
+                    <div className="style__ThumbnailWrapper-sc-1dymjr4-6 hkYMRb">
+                      <picture className="webpimg-container">
+                        <img src={IP13} alt="" />
+                      </picture>
+                    </div>
+                  </div>
+                  <div className="infor">
+                    <div class="badge-service"></div>
+                    <div className="name">
+                      <h3>
+                        Smart Tivi Qled The Serif Samsung 4K 55 inch QA55LS01B
+                        - Model 2022
+                      </h3>
+                    </div>
+                    <div className="star_checked">
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <div class="price-discount has-discount">
+                        <div class="price-discount__price">21.019.900₫</div>
+                        <div class="price-discount__discount">-27%</div>
+                        <div class="badge-under-price"></div>
+                        <div class="badge-benefits"></div>
+                        <div class="badge-additional-info"></div>
+                      </div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                  </div>
+                </div>
+              </NavLink>
+              
+              <NavLink
+                strict
+                to="/Product_detail_page"
+                className="style__StyledItem-sc-1dymjr4-0 jreItg"
+              >
+                <div>
+                  <div className="thumbnail">
+                    <img src="" alt="" />
+                    <div className="style__ThumbnailWrapper-sc-1dymjr4-6 hkYMRb">
+                      <picture className="webpimg-container">
+                        <img src={IP13} alt="" />
+                      </picture>
+                    </div>
+                  </div>
+                  <div className="infor">
+                    <div class="badge-service"></div>
+                    <div className="name">
+                      <h3>
+                        Smart Tivi Qled The Serif Samsung 4K 55 inch QA55LS01B
+                        - Model 2022
+                      </h3>
+                    </div>
+                    <div className="star_checked">
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <div class="price-discount has-discount">
+                        <div class="price-discount__price">21.019.900₫</div>
+                        <div class="price-discount__discount">-27%</div>
+                        <div class="badge-under-price"></div>
+                        <div class="badge-benefits"></div>
+                        <div class="badge-additional-info"></div>
+                      </div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                  </div>
+                </div>
+              </NavLink>
+            </a>
             
           </div>
         </div>
       </div>
     </div>
+    
   </div>
   )
 }
