@@ -7,6 +7,7 @@ import Container from './Home/Container';
 import Footer from './Home/Footer';
 import Navigation from './Home/Navigation';
 import Content from './Home/Content';
+import Product from './Home/Product';
 
 
 
@@ -19,6 +20,7 @@ const Header = () => {
     <Carousel/>
     <Category />
     <Container/>
+    <Product/>  
     <Footer/>  
     </>
   )

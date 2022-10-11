@@ -3,30 +3,53 @@ import "../../page/Css/style_container.css";
 import ForUser from "../../img/user1.webp";
 import Apple from "../../img/apple.webp";
 import Market from "../../img/hot_ngon.webp";
-import Digital_service from "../../img/dong_tien.webp";
-import Super_deal from "../../img/fire.webp";
-import Cheap from "../../img/Incredibly_cheap.webp";
-import New_product from "../../img/Product_new.webp";
-import Trend from "../../img/fashion_trend.webp";
-import Vinfast_moto from "../../img/vinfast.webp";
-import Iphone_13pr from "../../img/13prmax.webp";
-import {  NavLink } from "react-router-dom";
-import Ipad from "../../img/ipad10.webp";
-import Oil_free_fryer from "../../img/noi_chien_khong_dau.png";
-import Book_organce from "../../img/book_cam.webp";
-import Comic_annime from "../../img/truyen_tranh.webp";
-import Sneaker from "../../img/giay_sneaker.webp";
-import Fruit_machine from "../../img/may_ep.webp";
-import Vision from "../../img/underbon.webp";
-import S20 from "../../img/s20ss_256GB.webp";
-import Milk from "../../img/suanan.webp";
-import Iphone13 from "../../img/smart_phone.webp";
+
 
 
 export default function Container() {
   return (
-    <div>
-      <div className="container-sticky">
+    <div className="Container-sc-itwfbd-0 hfMLFx infinite_scroll">
+      <div className="style__StyledInfiniteScrollWidget-sc-89j3qn-2 cMnFhK">
+        <div className="header">
+        <h2 class="style__StyledInfiniteScrollWidgetHeaderTitle-sc-89j3qn-0 kFdEkv" >Gợi Ý Hôm Nay</h2>
+        <div className="style__StyledInfiniteScrollWidgetHeaderTabs-sc-89j3qn-1 bSYAiy">
+            <div class="tab active">
+              <img src={ForUser}/>
+              <div class="tab-text">Dành cho bạn</div>
+            </div>
+            <div className="tab false">
+              <img src={Market}/>
+              <div class="tab-text">Mua 1 Được 8</div>
+            </div>
+            <div className="tab false">
+              <img src={Market}/>
+              <div class="tab-text">Mua 1 Được 8</div>
+            </div>
+            <div className="tab false">
+              <img src={Market}/>
+              <div class="tab-text">Mua 1 Được 8</div>
+            </div>
+            <div className="tab false">
+              <img src={Market}/>
+              <div class="tab-text">Mua 1 Được 8</div>
+            </div>
+            <div className="tab false">
+              <img src={Market}/>
+              <div class="tab-text">Mua 1 Được 8</div>
+            </div>
+            <div className="tab false">
+              <img src={Market}/>
+              <div class="tab-text">Mua 1 Được 8</div>
+            </div>
+            <div className="tab false">
+              <img src={Market}/>
+              <div class="tab-text">Mua 1 Được 8</div>
+            </div>
+        </div>
+        </div>
+        <div></div>
+      </div>
+      {/* <div className="container-sticky">
         <div className="grid wide">
           <div className="row">
             <div className="col l-12 m-12 c-12">
@@ -75,12 +98,12 @@ export default function Container() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="product-suggestions">
+      </div> */}
+      {/* <div className="product-suggestions">
         <div className="grid wide">
           <div className="highlight-container">
             <div className="row ">
-              {/* <!-- Dành cho bạn --> */}
+              <!-- Dành cho bạn -->
               <div className="product-suggestions-container block-active">
                 <div className="suggestions-main">
                   <div className="col l-2 m-6 c-3">
@@ -318,7 +341,7 @@ export default function Container() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

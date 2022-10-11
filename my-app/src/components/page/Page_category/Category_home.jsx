@@ -15,8 +15,8 @@ export default function Category_home() {
     <>
      <Head />
       <Category_header />
-      <Cate_search/>
-      <Product_cate/>
+      {/* <Cate_search/> */}
+      {/* <Product_cate/> */}
       <Category_page />
       <Footer />
     </>
