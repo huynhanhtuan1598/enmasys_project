@@ -20,7 +20,6 @@ const Header = () => {
     <Carousel/>
     <Category />
     <Container/>
-    <Product/>  
     <Footer/>  
     </>
   )
