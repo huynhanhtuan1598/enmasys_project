@@ -47,7 +47,7 @@
 .grid.wide.navigation_header {
   max-width: 1006px;
   margin: 0 auto;
-  margin-left: 373px;
+  margin-left: 373px !important;;
 }
 
 .suggestions-main {
