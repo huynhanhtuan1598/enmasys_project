@@ -31,7 +31,7 @@ const Category_page = () => {
                     data-view-index="0"
                     data-view-content='{"click_data":{"trace_id":"FqTxYr1wGZnqQCj4"}}'
                     class="item  item--category "
-                    href="https://tiki.vn/giay-chay-bo-nam/c24174"
+                    href="/Category_home"
                   >
                     Giày bóng chuyền nam
                   </a>
@@ -40,7 +40,7 @@ const Category_page = () => {
                     data-view-index="0"
                     data-view-content='{"click_data":{"trace_id":"FqTxYr1wGZnqQCj4"}}'
                     class="item  item--category "
-                    href="https://tiki.vn/giay-chay-bo-nam/c24174"
+                    href="/Category_home"
                   >
                     Giày đá bóng nam
                   </a>
@@ -49,7 +49,7 @@ const Category_page = () => {
                     data-view-index="0"
                     data-view-content='{"click_data":{"trace_id":"FqTxYr1wGZnqQCj4"}}'
                     class="item  item--category "
-                    href="https://tiki.vn/giay-chay-bo-nam/c24174"
+                    href="/Category_home"
                   >
                     Giày cầu lông nam
                   </a>
@@ -58,7 +58,7 @@ const Category_page = () => {
                     data-view-index="0"
                     data-view-content='{"click_data":{"trace_id":"FqTxYr1wGZnqQCj4"}}'
                     class="item  item--category "
-                    href="https://tiki.vn/giay-chay-bo-nam/c24174"
+                    href="/Category_home"
                   >
                     Giày chạy bộ nam
                   </a>
@@ -67,7 +67,7 @@ const Category_page = () => {
                     data-view-index="0"
                     data-view-content='{"click_data":{"trace_id":"FqTxYr1wGZnqQCj4"}}'
                     class="item  item--category "
-                    href="https://tiki.vn/giay-chay-bo-nam/c24174"
+                    href="/Category_home"
                   >
                     Giày chạy bộ nam
                   </a>
@@ -76,7 +76,7 @@ const Category_page = () => {
                     data-view-index="0"
                     data-view-content='{"click_data":{"trace_id":"FqTxYr1wGZnqQCj4"}}'
                     class="item  item--category "
-                    href="https://tiki.vn/giay-chay-bo-nam/c24174"
+                    href="/Category_home"
                   >
                     Giày chạy bộ nam
                   </a>
@@ -85,7 +85,7 @@ const Category_page = () => {
                     data-view-index="0"
                     data-view-content='{"click_data":{"trace_id":"FqTxYr1wGZnqQCj4"}}'
                     class="item  item--category "
-                    href="https://tiki.vn/giay-chay-bo-nam/c24174"
+                    href="/Category_home"
                   >
                     Giày chạy bộ nam
                   </a>
@@ -94,7 +94,7 @@ const Category_page = () => {
                     data-view-index="0"
                     data-view-content='{"click_data":{"trace_id":"FqTxYr1wGZnqQCj4"}}'
                     class="item  item--category "
-                    href="https://tiki.vn/giay-chay-bo-nam/c24174"
+                    href="/Category_home"
                   >
                     Giày chạy bộ nam
                   </a>
@@ -103,7 +103,7 @@ const Category_page = () => {
                     data-view-index="0"
                     data-view-content='{"click_data":{"trace_id":"FqTxYr1wGZnqQCj4"}}'
                     class="item  item--category "
-                    href="https://tiki.vn/giay-chay-bo-nam/c24174"
+                    href="/Category_home"
                   >
                     Giày chạy bộ nam
                   </a>
@@ -209,7 +209,7 @@ const Category_page = () => {
                           data-view-content='{"click_data":{"trace_id":"sYZgrP6ICUW8RLoE"}}'
                           class="active"
                           rel="nofollow"
-                          href="https://tiki.vn/giay-bong-chuyen-nam/c24176?sort=default"
+                          href="/Category_home"
                         >
                           Phổ biến
                         </a>
@@ -219,7 +219,7 @@ const Category_page = () => {
                           data-view-content='{"click_data":{"trace_id":"sYZgrP6ICUW8RLoE"}}'
                           class=""
                           rel="nofollow"
-                          href="https://tiki.vn/giay-bong-chuyen-nam/c24176?sort=top_seller"
+                          href="/Category_home"
                         >
                           Bán chạy
                         </a>
@@ -229,7 +229,7 @@ const Category_page = () => {
                           data-view-content='{"click_data":{"trace_id":"sYZgrP6ICUW8RLoE"}}'
                           class=""
                           rel="nofollow"
-                          href="https://tiki.vn/giay-bong-chuyen-nam/c24176?sort=top_seller"
+                          href="/Category_home"
                         >
                           Hàng Mới
                         </a>
@@ -239,7 +239,7 @@ const Category_page = () => {
                           data-view-content='{"click_data":{"trace_id":"sYZgrP6ICUW8RLoE"}}'
                           class=""
                           rel="nofollow"
-                          href="https://tiki.vn/giay-bong-chuyen-nam/c24176?sort=top_seller"
+                          href="/Category_home"
                         >
                           Giá Cao Đến Thấp
                         </a>
@@ -249,7 +249,7 @@ const Category_page = () => {
                           data-view-content='{"click_data":{"trace_id":"sYZgrP6ICUW8RLoE"}}'
                           class=""
                           rel="nofollow"
-                          href="https://tiki.vn/giay-bong-chuyen-nam/c24176?sort=top_seller"
+                          href="/Category_home"
                         >
                           Giá Thấp Đến cao
                         </a>
