@@ -6,6 +6,12 @@
 .row p{
     padding: 5px;
 }
+
+.content h3{
+  padding-left: 19px;
+    font-size: 21px;
+    margin-top: 15px;
+}
 .hfMLFx {
     width: 1240px;
     padding-left: 20px;

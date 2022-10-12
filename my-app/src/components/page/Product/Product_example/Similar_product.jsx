@@ -9,7 +9,9 @@ const Similar_product = () => {
     <div className="style__StyledInfiniteScrollWidget-sc-89j3qn-2 cMnFhK">
       <div className="style__StyledInfiniteScroll-sc-r7dr5o-0 icHRkQ">
         <div className="content">
+          
           <div>
+          <h3>Sản Phẩm Đã Xem</h3>
             <a className="product-item">
               <NavLink
                 strict
